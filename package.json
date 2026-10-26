@@ -1,0 +1,33 @@
+{
+  "name": "js-39",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /js-39/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -b gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavlo20031/js-39.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavlo20031/js-39/issues"
+  },
+  "homepage": "https://github.com/pavlo20031/js-39#readme",
+  "dependencies": {
+    "@pnotify/core": "^5.2.0",
+    "@pnotify/mobile": "^5.2.0",
+    "basiclightbox": "^5.0.4",
+    "gh-pages": "^6.3.0",
+    "lodash.debounce": "^4.0.8",
+    "parcel": "^2.16.4",
+    "pnotify": "^5.2.0"
+  }
+}
